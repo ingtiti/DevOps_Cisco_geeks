@@ -1,1 +1,74 @@
 <!DOCTYPE html>
+<!--
+Demo edited Cisco Geeks
+Moni, Faus, Beto
+Friday meeting show
+-->
+
+<!-- Ambiente grafico -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initialscale=1">
+  <title>Interfaz demo Cisco</title>
+
+
+  <style>
+    img {width:25%;}
+    body {background-color:lightgrey;}
+    div{
+      letter-spacing: 3px;
+      text-align: center;
+      line-height: 1.8;
+    }
+    .first{
+    	background-color:lightblue;
+    	border:2px gray inset;
+
+    }
+  </style>
+</head>
+
+<!-- Validaciones dummy en cuadros de dialogo -->
+<script language="javascript" type="text/javascript">
+  //agregar operacion 1
+
+  //agregar operacion 2
+</script>
+
+<body>
+
+  <!-- Tittle -->
+  <div>
+    <font color="gray"> Interfaz dummy by </font></br>
+    <font color="blue">Cisco Geeks</font></br>
+  </br>
+    <img src="CiscoGeeks.png" alt="CiscoGeeksLogo" >
+  </br>
+</br>
+
+  </div>
+
+  <div class="first">
+		<p>What you want to configure ?</p>
+  <p> Identify your self</p>
+  <form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+</form>
+
+  <form>
+      <input type="radio" name="config" value="IPaddress" checked> IP address<br>
+      <input type="radio" name="config" value="VLAN"> VLAN<br>
+      <input type="radio" name="config" value="VPN"> VPN
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
